@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'service = py_srvcli.service_member_function:main',
         ],
     },
 )
